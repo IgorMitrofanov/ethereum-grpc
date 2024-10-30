@@ -1,7 +1,7 @@
 # ethereum-grpc client-server
 
 Нужно реализовать клиент-серверное приложение:
-
+```
 `gRPC server`:
  1  Реализовать GetAccount() метод:
  ◦ Request: { ethereum_address, crypto_signature }
@@ -18,8 +18,11 @@
  ◦ Для того, чтобы проверить, что метод сервера возвращает корректные данные, на балансе кошелька должны лежать токены. Вы можете использовать тестовые токены Ethereum 
  2 Запустить клиентский метод для GetAccounts() для 100 адресов и 3-5 токенов (подпись сообщения не требуется)
  ◦ Дополнительно измерить затраченное на обработку время
-  
+  ```
 Ресурсы:
+
 - https://goethereumbook.org/en 
+
 - https://geth.ethereum.org/docs/tools/abigen
+
 - https://grpc.io/docs/languages/go/quickstart/
